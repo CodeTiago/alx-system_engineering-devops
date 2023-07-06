@@ -1,6 +1,2 @@
 #!/bin/bash
-
-0x00-shell_basics=$(pwd)
-absolute_path=$(realpath "0x00-shell_basics")
-echo "Absolute path: $absolute_path"
-
+0x00-shell_basics=$(pwd) absolute_path=$(realpath "0x00-shell_basics") echo "Absolute path: $absolute_path"
