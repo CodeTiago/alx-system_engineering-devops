@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n 'n' iacta | grep -w '3:' | cut -d ':' -f 2-
+grep -n '^' iacta | grep -w '3:' | cut -d ':' -f 2-
